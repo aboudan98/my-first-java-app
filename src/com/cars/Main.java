@@ -16,7 +16,8 @@ public class Main {
         cars.add(corolla);
 
         for (Car car : cars) {
-            System.out.println("Name: " + car.getName() + " - Year: " + car.getManufacturingYear() +
+            System.out.println("Name: " + car.getName() +
+            " - Year: " + car.getManufacturingYear() +
             " - tires: " + car.getTires().size() +
             " - engine size: " + car.getEngine().getCapacity());
         }
